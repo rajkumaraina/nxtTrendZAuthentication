@@ -1,0 +1,124 @@
+.loginMainContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginContainer {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .loginContainer {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.loginImg {
+  width: 60%;
+  height: 350px;
+}
+.error {
+  color: #ff0b37;
+  width: 75%;
+  text-align: start;
+  font-size: 12px;
+}
+.formContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  border-radius: 4px;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding-top: 25px;
+}
+.formImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formLogo {
+  width: 95px;
+  height: 35px;
+  margin: 20px;
+  margin-bottom: 25px;
+}
+.labelElement {
+  color: #64748b;
+  font-weight: bold;
+  text-align: start;
+  width: 75%;
+  font-size: 12px;
+}
+
+.Input {
+  background-color: #d7dfe9;
+  padding: 10px;
+  width: 75%;
+  border-radius: 4px;
+  border: 0 none;
+  outline: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.loginButton {
+  background-color: #0b69ff;
+  padding: 4px;
+  color: #ffffff;
+  border: 0 none;
+  width: 75%;
+  outline: none;
+  height: 30px;
+  margin-top: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.formImg1 {
+  display: none;
+}
+@media (max-width: 576px) {
+  .loginImg {
+    width: 100%;
+  }
+  .formContainer {
+    width: 100%;
+    box-shadow: none;
+  }
+  .Input {
+    width: 90%;
+  }
+  .labelElement {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  .loginButton {
+    width: 90%;
+    height: 40px;
+  }
+  .formLogo {
+    display: none;
+  }
+  .error {
+    width: 90%;
+    font-size: 16px;
+  }
+  .formLogoMain {
+    width: 185px;
+    height: 55px;
+    margin: 60px;
+  }
+  .formImg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

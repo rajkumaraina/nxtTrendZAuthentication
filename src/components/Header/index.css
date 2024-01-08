@@ -1,0 +1,74 @@
+.navBarContainer {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}
+.navItemsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+  width: 90%;
+}
+.NavBarLogo {
+}
+.logo {
+  width: 145px;
+  height: 40px;
+}
+.navBarItems {
+  padding: 0;
+  display: flex;
+}
+.navbarItemsList {
+  list-style-type: none;
+  margin: 12px;
+}
+.logoutButton {
+  width: 65px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  height: 27px;
+  border: 0 none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.navbarItemsListButton {
+  list-style-type: none;
+  margin: 12px;
+}
+.smContainer {
+  display: none;
+}
+@media (max-width: 576px) {
+  .navBarContainer {
+    display: none;
+  }
+  .smContainer {
+    display: flex;
+    margin: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navBarContainerSm {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 14px;
+    margin-bottom: 20px;
+  }
+  .icons {
+    width: 35px;
+    height: 35px;
+  }
+  .iconsContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6f6ff;
+    width: 95%;
+    padding: 19px;
+    margin: 20px;
+  }
+}
